@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+body {
+    height: 300vh;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+#first {
+    background-color: #70f722;
+    border: 2.5px solid black;
+    position: relative;
+    top: 250px;
+}
+
+#second {
+    background-color: blueviolet;
+    border: 2.5px solid black;
+    position: relative;
+    top: 250px;
+    left: 300px;
+}
+
+#third {
+    position: fixed;
+    background-color: brown;
+    border: 2.5px solid black;
+    right: 60%;
+    top: 50%;
+}

@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(219, 237, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline double #4a4adf7c;
+    font-size: 45px;
+}
+
+input {
+    font-style: italic;
+    border-radius: 3.3px;
+    font-size: 15px;
+    margin: 7px 0 7px 0;
+    height: 20px;
+}
+
+#texto_entrada {
+    text-align: justify;
+}
+
+textarea {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button[type="reset"]:hover {
+    background-color: red;
+    color: white;
+}
+
+button[type="reset"]:active {
+    background-color: white;
+    color: red;
+}
+
+button[type="submit"]:hover {
+    background-color: #1e3d949a;
+    color: white;
+    margin-right: 5px;
+}
+
+button[type="submit"]:active {
+    background-color: white;
+    color: #1e3d949a;
+}
+
+input[type="text"]:hover {
+    background-color: #ffffff8a;
+}
+
+input[type="email"]:hover {
+    background-color: #ffffff8a;
+}
+
+input[type="radio"] {
+    margin-right: 5spx;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.exigido::after {
+    content: " *";
+    color: red;
+}
+
+select {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    width: 190px;
+    height: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+option {
+    font-weight: bolder;
+}
+
+textarea {
+    margin-top: 10px;
+}
+

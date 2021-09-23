@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    text-decoration: #1cdd0a94 underline wavy;
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-size: 60px;
+    font-family: sans-serif ;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #0e8088ad;
+}
+ 

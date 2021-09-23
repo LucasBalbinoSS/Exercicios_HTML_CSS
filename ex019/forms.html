@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <!-- O atributo "action" especifica para onde o formulário será enviado. -->
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a username</label>
+            <input id="username" type="text" placeholder="Name" name="name">
+        </p>
+
+        <p>
+            <label for="password">Enter a password</label>
+            <input id="password" type="password" placeholder="Password" name="password">
+        </p>
+
+        <p>
+            <label for="color">Chose a color</label>
+            <input id="color" type="color" name="color">
+        </p>
+
+        <p>
+            <label for="number">Enter a number</label>
+            <input id="number" type="number" placeholder="Enter a number" name="num">
+        </p>
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <h2>More inputs!!</h2>
+
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <label for="agree">I agree to everything</label>
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="stake">Steak</option>
+            </select>
+        </p>
+
+        <button>Submit</button>
+    </form>
+
+    <h2>One more form</h2>
+    <form action="https://www.google.com/search?">
+
+        <p>
+            <label for="find">Search on Google</label>
+        </p>
+
+        <input type="text" name="q" id="find" placeholder="Type something">
+
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+
+    </form>
+
+    <h2>Other form</h2>
+    <form action="https://github.com/search?">
+        <p>
+            <label for="youtube">Search on Github</label>
+        </p>
+
+        <input type="text" name="q" id="youtube" placeholder="Type some Github's username">
+
+        <p>
+            <button type="submit">Search</button>
+        </p>
+
+    </form>
+
+    <h2>Form</h2>
+    <form action="https://www.facebook.com/search/">
+        <p>
+            <label for="facebook">Search on Facebook</label>
+        </p>
+
+        <input type="text" name="q" id="facebook" placeholder="Search on Facebook">
+
+        <p>
+            <button type="submit">Search</button>
+        </p>
+
+    </form>
+    <h2>McDonalds</h2>
+    <form action="/lucas">
+
+
+        <p>
+            <label for="hamburguer">Hamburguer</label>
+            <input type="checkbox" name="hamburguer" id="hamburguer" checked>
+        </p>
+
+        <p>
+            <label for="burguer_quant">Quant:</label>
+            <input type="range" name="burguer_quant" id="burguer_quant" min="1" max="10" value="3">
+        </p>
+
+        <hr>
+
+        <p>
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" name="cheese" id="cheese">
+        </p>
+
+        <p>
+            <label for="cheese_quant">Quant:</label>
+            <input type="range" name="cheese_quant" id="cheese_quant" min="1" max="10" value="3">
+        </p>
+
+        <button type="submit">Make a wish</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Radio Buttons</h2>
+    <form action="/balbino">
+        <p>Do you agree?</p>
+        <label for="yes">Yes</label>
+        <input type="radio" name="yes_no" id="yes" value="yes">
+
+        <label for="no">No</label>
+        <input type="radio" name="yes_no" id="no" value="no">
+
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+
+    </form>
+
+    <h2>Tips?</h2>
+    <form action="/sdhfs">
+        <label for="tips">Any tip?</label>
+        <br><textarea name="tips" id="tips" cols="30" rows="10" placeholder="Type something here"></textarea>
+    </form>
+</body>
+
+</html>

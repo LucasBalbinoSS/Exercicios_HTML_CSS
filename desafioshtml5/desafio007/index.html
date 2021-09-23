@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1><em>Desafio de imagens flexíveis</em></h1>
+    <hr>
+    <p>Neste site, temos imagens que se adaptam a tela do usuário. <br>Por exemplo, se você estiver em uma tela de <strong><em>notebook</em></strong>, ou <strong><em>televisão</em></strong>, a imagem aparecerá <strong><em>grande e completa</em></strong>. <br>Já se você estiver usando em um <strong><em>tablet</em></strong>, a imagem aparecerá com um <strong><em>tamanho médio</em></strong>. <br>E, se você estiver usando um <strong><em>celular</em></strong>, a imagem será <strong><em>pequena</em></strong>, se adequando ao tamanho da sua tela.</p>
+
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/foto-p2.jpg" type="image/jpg">
+        <source media="(min-width: 1050px)" srcset="imagens/foto-full.jpg" type="image/jpg">
+        <img src="imagens/foto-m2.jpg" alt="Imagem de uma sala de estar">
+    </picture>
+</body>
+</html>

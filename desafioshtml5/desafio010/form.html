@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Register Form</title>
+</head>
+
+<body>
+    <h1>Race Registration!</h1>
+    <form action="/facebook">
+        <label for="first">First name:</label>
+        <input type="text" name="first" id="first" placeholder="First name" minlength="3" maxlength="20" required>
+
+        <label for="last">Last name:</label>
+        <input type="text" name="last" id="last" placeholder="Last name" minlength="3" maxlength="20" required>
+
+        <hr>
+
+        <p>Select a race:</p>
+        <div>
+            <input type="radio" name="race" id="fun" value="FR5">
+
+            <label for="fun">Fun run 5k</label>
+        </div>
+
+        <div>
+            <input type="radio" name="race" id="half" value="HM" checked>
+
+            <label for="half">Half marathon</label>
+        </div>
+
+        <div>
+            <input type="radio" name="race" id="full" value="FM">
+
+            <label for="full">Full marathon</label>
+        </div>
+
+        <hr>
+
+        <label for="email">Email</label>
+
+        <input type="email" name="email" id="email" placeholder="email" minlength="20" maxlength="45" required>
+
+        <label for="password">Password</label>
+
+        <input type="password" name="password" id="password" placeholder="password" minlength="8" maxlength="20" required>
+
+        <div>
+
+            <label for="age">Select age group:</label>
+
+            <select name="age" id="age">
+                <option value="under 18">Under 18</option>
+                <option value="18-30" selected>18-30</option>
+                <option value="50+">50+</option>
+            </select>
+
+        </div>
+
+        <button type="submit">Register!</button>
+    </form>
+</body>
+
+</html>

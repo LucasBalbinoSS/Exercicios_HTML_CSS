@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inscrição de Dev's</title>
+</head>
+<body>
+
+    <div>
+        <h1>Inscrição de Dev's</h1>
+        <h2>Preencha o formulário de cadastro</h2>
+    </div>
+
+    <form action="http//www.devs.com">
+        <fieldset>
+            <section>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu nome" required minlength="3" maxlength="20">
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Informe seu sobrenome" required minlength="3" maxlength="30">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Informe seu email" required minlength="30" maxlength="45">
+                </div>
+        </fieldset>
+        </section>
+
+        <section>
+            <p>Qual seu nível de senioridade?</p>
+
+            <label for="area">Front-end</label>
+            <input type="radio" name="area" id="front">
+
+            <label for="area">Back-end</label>
+            <input type="radio" name="area" id="back">
+
+            <label for="area">Full stack</label>
+            <input type="radio" name="area" id="full" checked>
+        </section>
+
+        <hr>
+
+        <section>
+            <p>Quais tecnologias você mais domina?</p>
+
+            <div>
+                <label for="python">Python</label>
+                <input type="checkbox" name="Python" id="python">
+                <label for="java">Java</label>
+                <input type="checkbox" name="java" id="java">
+                <label for="html">HTML5</label>
+                <input type="checkbox" name="html" id="html">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="css">CSS3</label>
+                <input type="checkbox" name="css" id="css">
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" name="js" id="js">
+                <label for="php">PHP</label>
+                <input type="checkbox" name="php" id="php">
+            </div>
+        </section>
+
+        <br>
+
+        <label for="sobrevoce">Diga mais sobre você aqui:</label>
+        <section>
+            <textarea name="sobrevoce" id="sobrevoce" cols="30" rows="6"></textarea>
+        </section>
+
+        <button type="submit">Pronto!</button>
+
+    </form>
+
+    
+</body>
+</html>

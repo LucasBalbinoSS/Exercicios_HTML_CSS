@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Lucas Automóveis</h1>
+
+    <hr>
+
+    <p id="texto_entrada">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corporis dolore vel libero deserunt sed alias consequuntur? Molestiae commodi ullam nam similique, alias omnis corrupti ipsa aliquam possimus impedit fuga!
+        Odio, iusto obcaecati itaque consequuntur corporis architecto quas beatae repudiandae perspiciatis nemo sed qui distinctio magni debitis quis assumenda doloribus sapiente voluptas quia placeat quo exercitationem unde? Corporis, aliquid saepe?
+    </p>
+
+    <form action="lucasautomoveis.com">
+
+        <label class="exigido" for="nome">Nome</label>
+        <div>
+            <input type="text" name="nome" id="nome" placeholder="Informe seu primeiro nome" required maxlength="15" minlength="3">
+        </div>
+
+        <label class="exigido" for="email">Email</label>
+        <div>
+            <input type="email" name="email" id="email" placeholder="Informe seu email" required minlength="15" maxlength="40">
+        </div>
+
+        <label class="exigido" for="modelo_carro">Modelo do carro</label>
+        <div>
+            <input type="text" name="modelo_carro" id="modelo_carro" placeholder="Informe o modelo do carro" minlength="5" maxlength="15">
+        </div>
+
+        <label for="ano_carro">Há quanto tempo você possui seu carro?</label>
+        <div>
+            <select name="ano_carro" id="ano_carro" required>
+                <option selected value="">Selecione</option>
+                <option value="men1A">Menos de 1 ano</option>
+                <option value="ent1/5A">Entre 1 à 5 anos</option>
+                <option value="5/10A">Entre 5 e 10 anos</option>
+                <option value="mai10A">Mais de 10 anos</option>
+            </select>
+        </div>
+
+        <hr>
+
+        <p>O que você procura em uma loja automotiva?</p>
+        <div>
+            <input type="checkbox" name="precoACESS" id="precoACESS">
+            <label for="precoACESS">Preço acessível</label>
+        </div>
+        
+        <div>
+            <input type="checkbox" name="tratDif" id="tratDif">
+            <label for="tratDif">Tratamento diferenciado</label>
+        </div>
+        
+        <div>
+            <input type="checkbox" name="parc" id="parc">
+            <label for="parc">Parcelas de até 50 vezes sem juros</label>
+        </div>
+        
+        <div>
+            <input type="checkbox" name="cuidadoCC" id="cuidadoCC">
+            <label for="cuidadoCC">Cuidado com seu carro</label>
+        </div>
+
+        <hr>
+
+        <div>
+            <input type="radio" name="opniãoCS" id="gostei" value="gostei" checked>
+            <label for="gostei">Gostei demais da Lucas Automóveis</label>
+        </div>
+
+        <div>
+            <input type="radio" name="opniãoCS" id="talvezUmDia" value="talvezUmDia">
+            <label for="talvezUmDia">Talvez eu volte um dia</label>
+        </div>
+
+        <div>
+            <input type="radio" name="opniãoCS" id="nunca" value="Nunca">
+            <label for="nunca">Não há a única chance de eu voltar</label>
+        </div>
+
+        <hr>
+
+        <label for="opiniao_cliente">Deixe sua opinião aqui:</label>
+        <div>
+            <textarea name="opinião cliente" id="opiniao_cliente" cols="35" rows="5"></textarea>
+        </div>
+
+        <button type="submit">Enviar pesquisa</button>
+        <button type="reset">Apagar tudo</button>
+
+    </form>
+</body>
+</html>
