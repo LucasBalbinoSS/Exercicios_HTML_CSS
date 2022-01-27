@@ -1,2 +1,2 @@
 # Exercicios HTML CSS
- My html and css exercises
+Repositório criado para a prática de HTML5 e CSS3 com exercícios.
